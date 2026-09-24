@@ -1,4 +1,6 @@
-INSERT INTO person (id, name, city)
-VALUES
-(101,'Raju','Delhi'),
-(103,'Paul','Chennai');
+SELECT * FROM person;
+
+UPDATE person
+	SET city ='Banglore'
+WHERE 
+	name ='Raju';
