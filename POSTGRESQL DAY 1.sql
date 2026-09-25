@@ -1,5 +1,10 @@
-Create table customers(
-acc_no INT PRIMARY KEY,
-name VARCHAR(100) NOT NULL,
-acc_type VARCHAR(50) NOT NULL DEFAULT 'Savings'
+CREATE TABLE employees(
+ emp_id SERIAL PRIMARY KEY,
+ fname VARCHAR (100) NOT NULL,
+ lname VARCHAR (100) NOT NULL,
+ email VARCHAR (100) NOT NULL UNIQUE,
+ dept VARCHAR(50),
+ salary DECIMAL(10,2) DEFAULT 30000.00,
+ hire_date DATE NOT NULL
+ DEFAULT CURRENT_DATE
 )
