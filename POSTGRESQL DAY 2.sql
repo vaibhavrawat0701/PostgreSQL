@@ -5,7 +5,7 @@ SELECT setval(
 );
 INSERT INTO employees ( fname, lname, email, dept, salary, hire_date)
 VALUES
-( 'Raj', 'Sharma', 'raj.sharma@example.com', 'IT', 50000.00, '2020-01-15'),
+( 'Raj', 'Sharma', 'raj.sharmsa@example.com', 'IT', 50000.00, '2020-01-15'),
 ( 'Priya', 'Singh', 'priya.singh@example.com', 'HR', 45000.00, '2019-03-22'),
 ( 'Arjun', 'Verma', 'arjun.verma@example.com', 'IT', 55000.00, '2021-06-01'),
 ( 'Suman', 'Patel', 'suman.patel@example.com', 'Finance', 60000.00, '2018-07-30'),
