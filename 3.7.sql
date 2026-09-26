@@ -1,0 +1,1 @@
+SELECT dept,count(emp_id) from employees GROUP BY dept;
