@@ -1,0 +1,1 @@
+select concat(LEFT(dept,1), emp_id), fname from employees;
