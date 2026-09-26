@@ -1,0 +1,1 @@
+SELECT REPLACE (dept, 'IT', 'TECH')from employees;

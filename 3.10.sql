@@ -1,0 +1,1 @@
+SELECT emp_id, CONCAT_WS('',fname, lname) AS Fullname, dept from employees;

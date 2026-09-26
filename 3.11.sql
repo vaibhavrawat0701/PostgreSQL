@@ -1,0 +1,1 @@
+SELECT SUBSTR ('Hello buddy!', 1, 9);

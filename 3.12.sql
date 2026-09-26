@@ -1,0 +1,1 @@
+SELECT REPLACE ('ABCXYZ', 'ABC', 'PQR');
