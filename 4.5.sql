@@ -1,0 +1,6 @@
+ALTER TABLE person
+ALTER COLUMN fname
+SET DATA TYPE VARCHAR(200);
+
+
+SELECT * FROM person;

@@ -1,0 +1,4 @@
+ALTER TABLE person
+DROP COLUMN age ;
+
+SELECT * FROM person
