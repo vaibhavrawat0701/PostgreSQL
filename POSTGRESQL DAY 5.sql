@@ -1,0 +1,9 @@
+CREATE TABLE contacts(
+name VARCHAR (50),
+mob VARCHAR (15) UNIQUE CHECK (LENGTH(mob) >=10)
+)
+
+SELECT * FROM contacts;
+
+INSERT INTO contacts(mob)
+VALUES (123456782);

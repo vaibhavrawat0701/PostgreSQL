@@ -1,0 +1,10 @@
+SELECT
+CASE
+WHEN salary > 50000 THEN 'HIGH'
+WHEN salary BETWEEN 45000 AND 55000 THEN 'MID'
+ELSE 'LOW'
+END
+AS sal_cat ,
+COUNT (emp_id)
+FROM employees
+GROUP BY sal_cat;
